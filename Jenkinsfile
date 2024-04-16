@@ -16,6 +16,13 @@ pipeline {
             }
         }
 
+        stage('code check') {
+            steps {
+                // check code quality
+                sh "echo 'this stage is to check the code '"
+            }
+        }
+
         stage('Build') {
             steps {
                 // Build your Node.js application (if necessary)
