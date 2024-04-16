@@ -12,7 +12,7 @@ pipeline {
         stage('Install dependencies') {
             steps {
                 // Install Node.js dependencies using npm or yarn
-                sh "echo 'this stage is installing the dependency'"
+                sh "echo 'this stage is installinng the dependency'"
             }
         }
 
