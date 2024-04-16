@@ -20,7 +20,7 @@ Clone the repository
 
     git clone git@github.com:gothinkster/laravel-realworld-example-app.git
 
-Switch to the repo folder
+Switch or jump to the repo folder
 
     cd laravel-realworld-example-app
 
